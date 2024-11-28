@@ -11,7 +11,7 @@ Steps
 3. Console -> TwiML Bin, create a new Twiml Bin<br/>
      \<Response\><br/>
         \<Connect\><br/>
-         \<ConversationRelay url="wss:/[your ngrok public address]" <br/>
+         \<ConversationRelay url="wss://[your ngrok public address]" <br/>
             welcomeGreeting="This is a ConversationRelay test, tell me how can I help you." /\><br/>
         \</Connect\><br/>
     \</Response\><br/>
