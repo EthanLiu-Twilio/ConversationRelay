@@ -1,4 +1,4 @@
-This is a minimun version of components that you can qiuck confirm/check the Twilio ConversationRelay feature, enjoy~
+This is a minimal version of the components that you can quickly confirm/check for the Twilio ConversationRelay feature. Enjoy!
 
 Steps
 ------
