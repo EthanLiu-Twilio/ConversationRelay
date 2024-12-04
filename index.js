@@ -14,7 +14,7 @@ sockserver.on('connection', ws => {
 		if(MSG.type==='prompt'){
 			console.log("A---" + MSG.voicePrompt);
 			const response = await openai.chat.completions.create({
-	            model: 'gpt-3.5-turbo',
+	            model: 'chatgpt-4o-latest',
 	            messages: [{ role: 'system', content: openaiprompt },{ role: 'user', content: MSG.voicePrompt }],
 	   	 	});
 	   	 	const reply = response.choices[0].message.content;
